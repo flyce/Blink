@@ -1,1 +1,5 @@
-<likeCmp />
+<view class="header">
+    <espsoideCmp class="epsoide" index="{{classic.index}}"/>
+    <likeCmp class="like" bind:like="onLike" like="{{classic.like_status}}" count="{{classic.fav_nums}}"/>
+</view>
+<movieCmp img="{{classic.image}}" content="{{classic.content}}"/>

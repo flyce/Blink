@@ -20,6 +20,11 @@ Component({
                 like: !like,
                 count
             });
+
+            let behavior = this.properties.like ? 'like' : 'cancel';
+            this.triggerEvent('like', {
+                behavior
+            }, {});
         }
     }
 });

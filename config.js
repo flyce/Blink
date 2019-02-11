@@ -1,6 +1,6 @@
 const config = {
-    url: "http://bl.7yue.pro/v1/",
+    url: "http://10.1.11.187:3000/",
     appkey: "000000000000000"
-}
+};
 
-export default config;
+export { config };
