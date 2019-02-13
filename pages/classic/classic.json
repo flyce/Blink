@@ -2,6 +2,8 @@
   "usingComponents": {
     "likeCmp": "/components/like/index",
     "movieCmp": "/components/movie/index",
-    "espsoideCmp": "/components/epsoide/index"
+    "musicCmp": "/components/music/index",
+    "espsoideCmp": "/components/epsoide/index",
+    "naviCmp": "/components/navi/index"
   }
 }

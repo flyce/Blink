@@ -1,5 +1,9 @@
-<view class="header">
-    <espsoideCmp class="epsoide" index="{{classic.index}}"/>
-    <likeCmp class="like" bind:like="onLike" like="{{classic.like_status}}" count="{{classic.fav_nums}}"/>
+<view class="container">
+    <view class="header">
+        <espsoideCmp class="epsoide" index="{{classic.index}}"/>
+        <likeCmp class="like" bind:like="onLike" like="{{classic.like_status}}" count="{{classic.fav_nums}}"/>
+    </view>
+    <movieCmp img="{{classic.image}}" content="{{classic.content}}"/>
+    <!-- <musicCmp /> -->
+    <naviCmp bind:left="onNext" bind:right="onPrivous" class="navi" title="{{classic.title}}" first="{{first}}" latest="{{latest}}"/>
 </view>
-<movieCmp img="{{classic.image}}" content="{{classic.content}}"/>

@@ -1,4 +1,5 @@
-// components/movie/index.js
+// components/essay/index.js
+
 import { classicBeh } from '../classic-beh';
 
 Component({
@@ -7,8 +8,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    img: String,
-    content: String
+
   },
 
   /**
